@@ -1,0 +1,47 @@
+body{
+  margin: 0;
+
+  font-family: Arial;
+}
+
+#root{
+  width: 100%;
+}
+
+.app{
+  min-height: 100vh;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  gap: 20px;
+
+  background-size: cover;
+
+  background-position: center;
+}
+
+.descricao{
+
+  color: white;
+
+  font-size: 22px;
+
+  text-align: center;
+
+  max-width: 500px;
+
+  padding: 10px 20px;
+
+  background-color:
+  rgba(0,0,0,0.4);
+
+  border-radius: 15px;
+
+  backdrop-filter: blur(5px);
+}

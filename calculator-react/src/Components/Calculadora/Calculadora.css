@@ -1,0 +1,42 @@
+.calculadora{
+
+  background-color: rgba(0,0,0,0.85);
+
+  padding: 20px;
+
+  border-radius: 25px;
+
+  width: 90%;
+  max-width: 400px;
+
+  box-shadow:
+  0px 0px 25px rgba(0,0,0,0.7);
+
+  backdrop-filter: blur(5px);
+}
+
+.botoes{
+
+  display: grid;
+
+  grid-template-columns:
+  repeat(4, 1fr);
+
+  gap: 12px;
+}
+
+@media(max-width: 600px){
+
+  .calculadora{
+
+    width: 85%;
+
+    padding: 15px;
+  }
+
+  .botoes{
+
+    gap: 10px;
+  }
+
+}
